@@ -15,7 +15,7 @@ function changeColor(){
 
     navigator.clipboard
         .writeText(inputColor.value)
-        .then(() => window.alert("text copied!"))
+        .then(() => window.alert("color code copied!"))
         .catch((e) => console.log(e));
 }
 
